@@ -374,7 +374,7 @@
 
 
         // sink rate
-        isSinking() ? sinkrate.play() : sinkrate.stop();
+       // isSinking() ? sinkrate.play() : sinkrate.stop();
 
         // height callouts when fully configured for landing and near airport
         altitude = groundAltitude();
