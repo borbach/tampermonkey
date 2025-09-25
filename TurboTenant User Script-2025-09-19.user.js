@@ -13,5 +13,6 @@
     'use strict';
 
     // Your code here...
+    console.log("Script is running");
     alert("Remember to update John's National Grid and Pseg bills every month. Also update Olga's National Grid bill. And don't forget Carlos's National Grid bill. This should all be available by the 15th of the month..");
 })();
