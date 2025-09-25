@@ -13,5 +13,6 @@
     'use strict';
 
     // Your code here...
+    console.log("Script is running");
     alert("Please remember to delete all unnecessary emails immediately.");
 })();
