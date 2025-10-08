@@ -1,0 +1,23 @@
+Good evening! I'll create a Tampermonkey script that monitors your Gmail inbox and automatically replies "Very Interesting Article" when someone sends you a PDF file or a URL.I've created a Tampermonkey script that will automatically reply "Very Interesting Article" to emails containing PDFs or URLs. Here's what it does:
+
+**Features:**
+- Monitors your Gmail inbox for new emails
+- Detects PDF attachments by looking for ".pdf" in attachment elements
+- Detects URLs in email bodies using pattern matching
+- Automatically clicks reply and sends the message
+- Tracks processed emails to avoid duplicate replies
+
+**To install:**
+1. Make sure you have Tampermonkey installed in your browser
+2. Click the Tampermonkey icon and select "Create a new script"
+3. Replace the default content with this script
+4. Save it (Ctrl+S or Cmd+S)
+5. The script will automatically run when you visit Gmail
+
+**Important notes:**
+- The script checks for new emails every 3 seconds
+- It only processes each email once (tracked by message ID)
+- Gmail's interface can change, so you may need to adjust selectors if Gmail updates
+- Test this carefully - automatic replies can't be undone!
+
+You might want to test it with a friend first to make sure it works as expected before relying on it for important emails.
